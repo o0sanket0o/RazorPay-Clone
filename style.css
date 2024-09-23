@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.companiesList{
+  animation:10s infinite linear movingUp
+}
+@keyframes movingUp {
+  0%{
+    top:0%;
+  }
+  100%{
+    top:-100%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+  
+  /* Adjust the animation speed (10s) to control how fast the logos move */
+  
+  
+  /* Adjust the animation speed (10s) to control how fast the logos move */
+  
